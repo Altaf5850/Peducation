@@ -9,8 +9,11 @@ function NavBar() {
     <div className="flex items-center justify-between h-16 text-black px-5 fixed z-50 w-full shadow-md ">
       <div className="flex items-center">
         <div className="text-3xl pt-2 md:font-merienda font-extrabold text-black">
-          <h1 className="text-lg">PEDUCATION</h1>
-          <h4 className="text-xs underline">ONLINE EDUCATION & LEARNING</h4>
+          <a href="/">
+            {" "}
+            <h1 className="text-lg">PEDUCATION</h1>
+            <h4 className="text-xs underline">ONLINE EDUCATION & LEARNING</h4>
+          </a>
         </div>
       </div>
       <div className="md:hidden ml-16">
